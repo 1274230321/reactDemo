@@ -3,16 +3,24 @@ import logo from './logo.svg';
 import './App.css';
 import HelloWorld from './HelloWorld';
 import SecCom from './SecCom';
+import IntervalDate from './IntervalDate'
+import ShellBar from './ShellBar'
 
 function App() {
   return (
     <div className="App">
-      Please check my component belowd
+      Please check my component below
+        <div>
+            <ShellBar/>
+        </div>
         <div>
             <HelloWorld/>
         </div>
         <div>
             <SecCom/>
+        </div>
+        <div>
+            <IntervalDate/>
         </div>
 
 
