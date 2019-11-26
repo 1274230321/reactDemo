@@ -5,6 +5,7 @@ import HelloWorld from './HelloWorld';
 import SecCom from './SecCom';
 import IntervalDate from './IntervalDate'
 import ShellBar from './ShellBar'
+import ShowMessage from "./ShowMessage";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
         </div>
         <div>
             <IntervalDate/>
+        </div>
+        <div>
+            <ShowMessage/>
         </div>
 
 
